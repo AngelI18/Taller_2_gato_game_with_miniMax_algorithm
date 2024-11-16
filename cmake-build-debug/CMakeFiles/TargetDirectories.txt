@@ -1,0 +1,3 @@
+C:/Users/angel/CLionProjects/Taller_2_gato_game_with_miniMax_algorithm/cmake-build-debug/CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir
+C:/Users/angel/CLionProjects/Taller_2_gato_game_with_miniMax_algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/angel/CLionProjects/Taller_2_gato_game_with_miniMax_algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
