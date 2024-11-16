@@ -67,6 +67,12 @@ build CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Bot.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir
 
+build CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Tablero.cpp.obj: CXX_COMPILER__Taller_2_gato_game_with_minMax_algorithm_unscanned_Debug C$:/Users/angel/CLionProjects/Taller_2_gato_game_with_miniMax_algorithm/Tablero.cpp || cmake_object_order_depends_target_Taller_2_gato_game_with_minMax_algorithm
+  DEP_FILE = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir\Tablero.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Taller_2_gato_game_with_minMax_algorithm
@@ -75,7 +81,7 @@ build CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Bot.cpp.obj: CXX_C
 #############################################
 # Link the executable Taller_2_gato_game_with_minMax_algorithm.exe
 
-build Taller_2_gato_game_with_minMax_algorithm.exe: CXX_EXECUTABLE_LINKER__Taller_2_gato_game_with_minMax_algorithm_Debug CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/main.cpp.obj CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Player.cpp.obj CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Bot.cpp.obj
+build Taller_2_gato_game_with_minMax_algorithm.exe: CXX_EXECUTABLE_LINKER__Taller_2_gato_game_with_minMax_algorithm_Debug CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/main.cpp.obj CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Player.cpp.obj CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Bot.cpp.obj CMakeFiles/Taller_2_gato_game_with_minMax_algorithm.dir/Tablero.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Taller_2_gato_game_with_minMax_algorithm.dir

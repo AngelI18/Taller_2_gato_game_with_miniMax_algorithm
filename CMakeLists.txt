@@ -7,4 +7,6 @@ add_executable(Taller_2_gato_game_with_minMax_algorithm main.cpp
         Player.h
         Player.cpp
         Bot.h
-        Bot.cpp)
+        Bot.cpp
+        Tablero.h
+        Tablero.cpp)
