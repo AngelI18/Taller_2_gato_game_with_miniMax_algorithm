@@ -1,30 +1,58 @@
-//
-// Created by angel on 16/11/2024.
-//
-
+#pragma once
 #include "Tablero.h"
 
 
-//construtor
 Tablero::Tablero() {
-    //se crea el tablero en 0
-    reiniciarTablero();
-    //se llena de nullptr los jugadores
-    reiniciarJugadores();
-    bot=nullptr;
-    gameOver=false;
+    for(int i=0;i<3;i++) {
+        for(int j=0;j<3;j++) {
+            matriz[i][j] = 0;
+        }
+        if(i<2)players[i]=nullptr;
+    }
+    bot = nullptr;
+    gameOver = false;
 }
 
-void Tablero::reiniciarTablero() {
-    for(int i = 0;i<3;i++) {
+void Tablero::printTable() {
+    std :: string tablero = "";
+    int cont=0;
+    for(int i =0;i<3;i++) {
         for(int j=0;j<3;j++) {
-            Matriz[i][j] = 0;
+            cont++;
+            switch(matriz[i][j]) {
+                case 1:
+                    if(j<2) {
+                        tablero=tablero+"X|";
+                    }else {
+                        tablero=tablero+"X\n";
+                    }
+                    break;
+                case 2:
+                    if(j<2) {
+                        tablero=tablero+"O|";
+                    }else {
+                        tablero=tablero+"O\n";
+                    }
+                    break;
+                default:
+                    std::string dato = std::to_string(cont);
+                    if(j<2) {
+                        tablero=tablero+dato+"|";
+                    }else {
+                        tablero=tablero+dato+"\n";
+                    }
+                    break;
+            }
+        }
+        if(i<2) {
+            tablero=tablero+"-+-+-\n";
         }
     }
+
+    system("cls");
+    std :: cout << tablero;
 }
 
-void Tablero::reiniciarJugadores() {
-    for(int i = 0;i<2;i++) {
-        players[i]==nullptr;
-    }
+void Tablero::menu(int option) {
+
 }

@@ -4,12 +4,10 @@
 class Player {
     private:
         std::string name;
-        int number;
         int score;
     public:
-        Player(std::string name, int number);
+        Player(std::string name);
         int getScore();
-        int getNumber();
         std::string getName();
         ~Player();
 };
